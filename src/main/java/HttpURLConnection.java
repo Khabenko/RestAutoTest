@@ -43,7 +43,6 @@ public class HttpURLConnection {
         System.out.println(response.getStatusLine());
         System.out.println(EntityUtils.toString(responseEntity));
 
-
     }
 
 
