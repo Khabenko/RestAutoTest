@@ -6,10 +6,10 @@ public class Main {
         DBConector conector = new DBConector();
         ArrayList<String> list = new ArrayList<>();
 
-       list = conector.selectResultList("SELECT Name FROM Contact","Name");
+        list = conector.selectResultList("SELECT Name FROM Contact","Name");
         System.out.println(list.size());
         list = conector.selectResultList("SELECT Name FROM Contact WHERE Name = 'Oleg Mysterious Uknowovych';","Name");
-
+        System.out.println(list.size());
 
 
     }
